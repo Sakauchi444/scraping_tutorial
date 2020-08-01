@@ -1,3 +1,5 @@
+# テストコメント
+
 # pip install requests
 # pip install beautifulsoup4
 # beautifulsoupのバージョンは４ということ。python3では4以下を使うことができない
@@ -43,3 +45,4 @@ print(soup.find_all('a', attrs={'class':'gb4'}))  #1つしか出来ない。辞�
 
 # _____CSSセレクタによる要素取得_____
 print(soup.select('.gb4'))
+
